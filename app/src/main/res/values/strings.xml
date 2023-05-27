@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Đăng nhập - Đăng kí đơn giản</string>
+    <string name="dang_ky">Đăng ký</string>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="luu_dangnhap">Lưu đăng nhập</string>
+    <string name="tai_khoan">Tài khoản</string>
+    <string name="mat_khau">Mật khẩu</string>
+    <string name="nhaplai_matkhau">Nhập lại mật khẩu</string>
+    <string name="ho_ten">Họ và tên</string>
+    <string name="gioi_tinh">Giới tính</string>
+    <string name="gioitinh_nam">Nam</string>
+    <string name="gioitinh_nu">Nữ</string>
+    <string name="nam_sinh">Năm sinh</string>
+    <string name="nhap_lai">Nhập lại</string>
+    <string name="quay_lai">Quay lại</string>
+    <string name="hint">Nhap vao day</string>
+
+</resources>

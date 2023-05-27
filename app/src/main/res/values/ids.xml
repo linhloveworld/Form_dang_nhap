@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtTK" type="id">txtTK</item>
+    <item name="txtMK" type="id">txtMK</item>
+    <item name="ckLuu" type="id">ckLuu</item>
+    <item name="txtHoten" type="id">txtHoten</item>
+    <item name="txtNsinh" type="id">txtNsinh</item>
+    <item name="btnNhaplai" type="id">btnNhaplai</item>
+    <item name="btnQuaylai" type="id">btnQuaylai</item>
+    <item name="rdNam" type="id">rdNam</item>
+    <item name="rdNu" type="id">rdNu</item>
+    <item name="btnDnhap" type="id">btnDnhap</item>
+</resources>

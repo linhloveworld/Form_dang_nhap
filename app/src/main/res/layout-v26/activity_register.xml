@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/dang_ky"
+        android:textColor="@color/black"
+        android:textSize="15pt"/>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tai_khoan"/>
+
+            <EditText
+                android:id="@+id/txtTk"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:hint="@string/tai_khoan"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:labelFor="@android:id/autofill">
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tablerow2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/mat_khau"/>
+
+            <EditText
+                android:id="@+id/txtMk"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:autofillHints="inlcude A-Z,0-9"
+                android:ems="10"
+                android:hint="@string/mat_khau"
+                android:inputType="textPassword" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/textView5"
+                android:text="@string/nhaplai_matkhau"/>
+
+            <EditText
+                android:id="@+id/txtNhaplaiMk"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:hint="@string/nhaplai_matkhau"
+                android:importantForAutofill="no"
+                android:inputType="textPassword" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/textView6"
+                android:text="@string/ho_ten"/>
+
+            <EditText
+                android:id="@+id/txtHoten"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:hint="@string/ho_ten"
+                android:inputType="text"
+                android:importantForAutofill="no" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tableRow7">
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gioi_tinh"/>
+
+            <RadioButton
+                android:id="@+id/rdNam"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="@string/gioitinh_nam" />
+
+            <RadioButton
+                android:id="@+id/rdNu"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="@string/gioitinh_nu" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tableRow8">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/txtView8"
+                android:text="@string/nam_sinh">
+            </TextView>
+
+            <EditText
+                android:id="@+id/txtNsinh"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:hint="@string/hint"
+                android:inputType="date"
+                android:importantForAutofill="no" />
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tableRow9">
+            <Button
+                android:id="@+id/btnDky"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/dang_ky">
+            </Button>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/btnNhaplai"
+                android:text="@string/nhap_lai"/>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:id="@+id/btnQuaylai"
+                android:text="@string/quay_lai">
+            </Button>
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
